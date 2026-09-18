@@ -31,4 +31,4 @@ app.listen(PORT, () => {
 });
 
 export default app;
-export { app };
+export { app };
