@@ -25,7 +25,7 @@ export const globalErrorHandler = (
   res: Response,
   next: NextFunction
 ): void => {
-  console.error('💥 Global Error Handler:', err);
+  console.error('Global Error Handler:', err);
 
   if (err instanceof ZodError) {
     res.status(400).json({
